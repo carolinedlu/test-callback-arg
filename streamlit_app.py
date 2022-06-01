@@ -1,6 +1,6 @@
 import streamlit as st
 
-with callback_fxn(my_text_input):
+def callback_fxn(my_text_input):
   st.write("here's the val:")
   st.write(my_text_input)
 
